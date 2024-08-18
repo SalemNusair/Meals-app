@@ -8,7 +8,7 @@ import {
 } from "react-native";
 // we use this hook to navigate as we can't get from the function as it's not added as screen
 import { useNavigation } from "@react-navigation/native";
-import MealDetails from "./MealDetails";
+import MealDetails from "../MealDetails";
 const MealItem = ({
     id,
     title,
